@@ -1,0 +1,22 @@
+{
+  "name": "umi-ant-mobile",
+  "version": "1.0.0",
+  "description": "an umi and ant mobile repository",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vJane/umi-ant-mobile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vJane/umi-ant-mobile/issues"
+  },
+  "homepage": "https://github.com/vJane/umi-ant-mobile#readme"
+}
