@@ -6,9 +6,11 @@
   "main": "index.js",
   "dependencies": {
     "antd-mobile": "^2.1.8",
+    "react-document-title": "^2.0.3",
     "umi": "^1.2.6"
   },
   "devDependencies": {
+    "@types/react-document-title": "^2.0.2",
     "cross-env": "^5.1.5",
     "lint-staged": "^7.1.0",
     "prettier": "^1.12.1"
