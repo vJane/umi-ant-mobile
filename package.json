@@ -7,9 +7,11 @@
   "dependencies": {
     "umi": "^1.2.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cross-env": "^5.1.5"
+  },
   "scripts": {
-    "start": "umi dev",
+    "start": "cross-env BROWSER=none umi dev",
     "build": "umi build"
   },
   "license": "MIT"

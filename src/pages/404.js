@@ -1,3 +1,5 @@
-export default () => <div>
-  404
-</div>
+export default () => {
+  return (
+    <div>404 page</div>
+  );
+};
