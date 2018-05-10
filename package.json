@@ -8,11 +8,20 @@
     "umi": "^1.2.6"
   },
   "devDependencies": {
-    "cross-env": "^5.1.5"
+    "cross-env": "^5.1.5",
+    "lint-staged": "^7.1.0",
+    "prettier": "^1.12.1"
   },
   "scripts": {
     "start": "cross-env BROWSER=none umi dev",
-    "build": "umi build"
+    "build": "umi build",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "license": "MIT"
 }
