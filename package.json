@@ -5,6 +5,7 @@
   "private": true,
   "main": "index.js",
   "dependencies": {
+    "antd-mobile": "^2.1.8",
     "umi": "^1.2.6"
   },
   "devDependencies": {

@@ -1038,7 +1038,7 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-antd-mobile@^2.0.0:
+antd-mobile@^2.0.0, antd-mobile@^2.1.8:
   version "2.1.8"
   resolved "http://registry.npm.taobao.org/antd-mobile/download/antd-mobile-2.1.8.tgz#054efda2105d9bf603a0730b8602a8fb21c81c02"
   dependencies:
