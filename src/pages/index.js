@@ -1,6 +1,5 @@
-import { Button } from 'antd-mobile';
+import { Icon } from 'antd';
 export default () => <div>
-  demo page
-  <br />
-  <Button type="primary">button</Button>
+  Index page
+  <Icon type="line-chart" />
 </div>
