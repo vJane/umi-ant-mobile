@@ -7,7 +7,8 @@
   "dependencies": {
     "antd-mobile": "^2.1.8",
     "react-document-title": "^2.0.3",
-    "umi": "^1.2.6"
+    "umi": "^1.2.6",
+    "umi-plugin-dva": "^0.6.4"
   },
   "devDependencies": {
     "@types/react-document-title": "^2.0.2",
@@ -21,7 +22,10 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,css}": ["prettier --write", "git add"]
+    "*.{js,jsx,ts,tsx,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "license": "MIT"
 }
