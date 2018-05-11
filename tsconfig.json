@@ -9,5 +9,8 @@
       "components": ["components"]
     },
     "allowSyntheticDefaultImports": true
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "reportFiles": ["src/**/*.{ts,tsx}"]
   }
 }
