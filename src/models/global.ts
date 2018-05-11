@@ -1,3 +1,4 @@
+import { Model } from 'dva'
 import { routerRedux } from 'dva/router'
 
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
@@ -9,9 +10,8 @@ const asyncError = () =>
 export interface IGlobalState {
   counter: number
 }
-export interface IGlobalModel {
+export interface IGlobalModel extends Model {
   state: IGlobalState
-  [key: string]: any
 }
 
 const globalModel: IGlobalModel = {
