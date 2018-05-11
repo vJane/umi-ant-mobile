@@ -1,7 +1,10 @@
-import { Icon } from 'antd';
+import Link from 'umi/link'
+import { Button } from 'antd-mobile'
+
 export default () => (
   <div>
-    Index page
-    <Icon type="line-chart" />
+    <Link to="/counter">
+      <Button>Counter</Button>
+    </Link>
   </div>
-);
+)
