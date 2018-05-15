@@ -13,7 +13,7 @@ const StyledButton = styled(Button)`
 export default () => (
   <DocumentTitle title="Index">
     <>
-      <Link to="/counter" >
+      <Link to="/counter">
         <Button>Counter</Button>
       </Link>
       <StyledButton type="primary">Styled Button</StyledButton>
